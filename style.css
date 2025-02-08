@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+background-color:rgb(248, 195, 243);
+color: black;
+}
+
+h1{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.let{
+   text-align: left;
+   padding-top: 20px;
+   padding-bottom: 30px;
+   font-size: 22px;
+   text-indent: 80px;
+}
+
+.letter {
+    width: 50%; 
+    margin-left: 380px;
+    padding: 30px;;
+    border-radius: 15px; 
+    background-color: white; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.letter .dos{
+    text-align: right;
+}
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.btn1{
+    text-decoration: none;
+    color: grey;
+    border: 2px solid #fe6ccba7;
+    margin-left: 600px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+    margin-right: 200px;
+}
+
+.btn1:hover {
+    color: White;
+    background-color: pink;
+    transform: scale(1.05); 
+}
+
+.btn2{
+    text-decoration: none;
+    color: grey;
+    border: 2px solid #fe6ccba7;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+    margin-right: 200px;
+}
+.btn2:hover {
+    color: White;
+    background-color: pink;
+    transform: scale(1.05); 
+}
+
+/*Invite*/
+
+.pic1{
+    margin-left: 510px;
+    border: 2px solid pink;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.btn8 a {
+    text-decoration: none;
+    color: grey;
+     border: 2px solid #fe6ccba7;
+    margin-left: 620px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+}
+
+.btn8 a:hover {
+    color: White;
+    background-color: pink;
+    transform: scale(1.05); 
+}
